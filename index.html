@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- vinculación con estilos y favicon -->
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="shortcut icon" href="./static/img/favicon.ico" type="image/x-icon">
+    <title>Recetas Faciles</title>
+    <!-- vinculación con google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <!-- vinculación fontawesome -->
+    <script src="https://kit.fontawesome.com/6c447e9446.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Encabezado -->
+    <header class="header">
+
+        <nav>
+            <!-- Logo -->
+            <div id="logo">
+                <a href="/">
+                    <i class="fa-solid fa-kitchen-set"></i>
+                    <span class="logo-text">Recetas Faciles</span>
+                </a>
+            </div>
+
+            <!-- hipervínculos del menú -->
+            <ul class="nav-links">
+                <li><a href="#popular">Tendencias</a></li>
+                <li><a href="./templates/register.html" class="btn-rec">Registrarse</a></li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-sign-in-alt"></i>
+                        <span class="login-text">Iniciar Sesión</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Contenido -->
+    <main>
+
+        <!-- banner: una sección prominente en la 
+            parte superior de una página que puede
+            contener información destacada, como anuncios,
+            mensajes importantes, o un diseño gráfico distintivo. -->
+        <section id="banner" class="d-flex">
+
+            <div class="card-banner container">
+                <h1>Exquisitas Recetas Gratuitas.</h1>
+                <h2>Deliciosas recetas caseras al instante.</h2>
+                <a href="./templates/register.html" class="btn-rec">Registrate</a>
+            </div>
+
+        </section>
+
+        <!-- search: sección que contiene un mensaje de búsqueda
+            y un campo de entrada de texto para que los usuarios
+            ingresen lo que desean buscar en un sitio web
+              -->
+        <section id="search" class="container">
+            <h2 class="search-title">¿Qué estas buscando para comer?</h2>
+            <input type="text" class="input-search" placeholder="Buscar...">
+        </section>
+
+        <!-- popular: mostrar imágenes de las recetas
+            con tendencia hoy -->
+        <section id="popular">
+
+            <!-- División contenedora del titulo
+                e imagenes -->
+            <div class="container" class="recetas-grid">
+
+                <h2>Recetas mas populares.</h2>
+                <!-- Div para mostrar todas las imagenes e info 
+                    de las películas -->
+                <div id="list-popular">
+
+                    <!-- División que mostrará imagen y detalle de la pelicula, mismo 
+                    formato para todas las recetas -->
+                    <!-- pelicula 01 -->
+                    <div class="receta-item">
+                        <a href="#">
+                            <img src="https://loremflickr.com/200/200/food,cooking/all?random" alt=""
+                                class="receta-item-img">
+                            <div class="receta-item-detail">
+                                <p class="receta-item-detail-title">Fideos Con Tuco</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- pelicula 02 -->
+                    <div class="receta-item">
+                        <a href="#">
+                            <img src="https://loremflickr.com/200/200/food,cooking/all?random=1" alt=""
+                                class="receta-item-img">
+                            <div class="receta-item-detail">
+                                <p class="receta-item-detail-title">Arepa</p>
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- pelicula 03 -->
+                    <div class="receta-item">
+                        <a href="#">
+                            <img src="https://loremflickr.com/200/200/food,cooking/all?random=2" alt=""
+                                class="receta-item-img">
+                            <div class="receta-item-detail">
+                                <p class="receta-item-detail-title">Ceviche</p>
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- pelicula 04 -->
+                    <div class="receta-item">
+                        <a href="#">
+                            <img src="https://loremflickr.com/200/200/food,cooking/all?random=3" alt=""
+                                class="receta-item-img">
+                            <div class="receta-item-detail">
+                                <p class="receta-item-detail-title">Empanadas</p>
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- pelicula 05 -->
+                    <div class="receta-item">
+                        <a href="#">
+                            <img src="https://loremflickr.com/200/200/food,cooking/all?random=4" alt=""
+                                class="receta-item-img">
+                            <div class="receta-item-detail">
+                                <p class="receta-item-detail-title">Asado</p>
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- pelicula 06 -->
+                    <div class="receta-item">
+                        <a href="#">
+                            <img src="https://loremflickr.com/200/200/food,cooking/all?random=5" alt=""
+                                class="receta-item-img">
+                            <div class="receta-item-detail">
+                                <p class="receta-item-detail-title">Pupusas</p>
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- pelicula 07 -->
+                    <div class="receta-item">
+                        <a href="#">
+                            <img src="https://loremflickr.com/200/200/food,cooking/all?random=6" alt=""
+                                class="receta-item-img">
+                            <div class="receta-item-detail">
+                                <p class="receta-item-detail-title">Tamales</p>
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- pelicula 08 -->
+                    <div class="receta-item">
+                        <a href="#">
+                            <img src="https://loremflickr.com/200/200/food,cooking/all?random=7" alt=""
+                                class="receta-item-img">
+                            <div class="receta-item-detail">
+                                <p class="receta-item-detail-title">Feijoada</p>
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- pelicula 09 -->
+                    <div class="receta-item">
+                        <a href="#">
+                            <img src="https://loremflickr.com/200/200/food,cooking/all?random=8" alt=""
+                                class="receta-item-img">
+                            <div class="receta-item-detail">
+                                <p class="receta-item-detail-title">Pisco Sour</p>
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- pelicula 10 -->
+                    <div class="receta-item">
+                        <a href="#">
+                            <img src="https://loremflickr.com/200/200/food,cooking/all?random=9" alt=""
+                                class="receta-item-img">
+                            <div class="receta-item-detail">
+                                <p class="receta-item-detail-title">Ajiaco</p>
+
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- top-rated: mostrar las películas más aclamadas-->
+        <section id="top-rated">
+
+            <!-- División contenedora del titulo
+                e imagenes -->
+            <div class="container">
+
+                <h2>Las más votadas.</h2>
+                <!-- Div para mostrar todas las imagenes e info 
+                        de las películas -->
+                <div id="list-top-rated" class="recetas-scroller">
+
+                    <!-- Info de las películas mismo formato para todas -->
+                    <!-- pelicula 01 -->
+                    <div class="receta-item-v2">
+                        <div class="wrapper">
+                            <img src="https://loremflickr.com/200/200/food,cooking/all?random=10" alt=""
+                                class="receta-item-img-v2">
+                        </div>
+                        <div class="receta-item-detail-v2">
+                            <p class="receta-item-detail-title-v2">Salchichas Con Pure</p>
+                        </div>
+                    </div>
+
+                    <!-- pelicula 02 -->
+                    <div class="receta-item-v2">
+                        <div class="wrapper">
+                            <img src="https://loremflickr.com/200/200/food,cooking/all?random=11" alt=""
+                                class="receta-item-img-v2">
+                        </div>
+                        <div class="receta-item-detail-v2">
+                            <p class="receta-item-detail-title-v2">Tacos</p>
+                        </div>
+                    </div>
+
+                    <!-- pelicula 02 -->
+                    <div class="receta-item-v2">
+                        <div class="wrapper">
+                            <img src="https://loremflickr.com/200/200/food,cooking/all?random=12" alt=""
+                                class="receta-item-img-v2">
+                        </div>
+                        <div class="receta-item-detail-v2">
+                            <p class="receta-item-detail-title-v2">Pollo a la Brasa</p>
+                        </div>
+                    </div>
+
+
+                    <div class="receta-item-v2">
+                        <div class="wrapper">
+                            <img src="https://loremflickr.com/200/200/food,cooking/all?random=13" alt=""
+                                class="receta-item-img-v2">
+                        </div>
+                        <div class="receta-item-detail-v2">
+                            <p class="receta-item-detail-title-v2">Bandeja Paisa</p>
+                        </div>
+                    </div>
+
+                    <!-- pelicula 03 -->
+                    <div class="receta-item-v2">
+                        <div class="wrapper">
+                            <img src="https://loremflickr.com/200/200/food,cooking/all?random=14" alt=""
+                                class="receta-item-img-v2">
+                        </div>
+                        <div class="receta-item-detail-v2">
+                            <p class="receta-item-detail-title-v2">Chimichurri</p>
+                        </div>
+                    </div>
+
+
+                    <div class="receta-item-v2">
+                        <div class="wrapper">
+                            <img src="https://loremflickr.com/200/200/food,cooking/all?random=15" alt=""
+                                class="receta-item-img-v2">
+                        </div>
+                        <div class="receta-item-detail-v2">
+                            <p class="receta-item-detail-title-v2">Churrasco</p>
+                        </div>
+                    </div>
+
+                    <!-- pelicula 04 -->
+                    <div class="receta-item-v2">
+                        <div class="wrapper">
+                            <img src="https://loremflickr.com/200/200/food,cooking/all?random=16" alt=""
+                                class="receta-item-img-v2">
+                        </div>
+                        <div class="receta-item-detail-v2">
+                            <p class="receta-item-detail-title-v2">Alfajores</p>
+                        </div>
+                    </div>
+
+
+                    <div class="receta-item-v2">
+                        <div class="wrapper">
+                            <img src="https://loremflickr.com/200/200/food,cooking/all?random=17" alt=""
+                                class="receta-item-img-v2">
+                        </div>
+                        <div class="receta-item-detail-v2">
+                            <p class="receta-item-detail-title-v2">Patacones</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer id="footer">
+        <a href="">Términos y condiciones</a>
+        <a href="">Preguntas Frecuentes</a>
+        <a href="">Ayuda</a>
+    </footer>
+
+</body>
+
+</html>
